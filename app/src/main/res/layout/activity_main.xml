@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="147dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="77dp"
+        android:src="@mipmap/img"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/btnReadArticle"
+        android:layout_width="264dp"
+        android:layout_height="99dp"
+        android:layout_below="@+id/appLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="New Article"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btnFavorites"
+        android:layout_width="264dp"
+        android:layout_height="99dp"
+        android:layout_below="@+id/btnReadArticle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Favorite Articles"
+        android:textSize="20sp"
+
+        />
+
+
+</RelativeLayout>
